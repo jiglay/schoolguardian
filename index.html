@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>BotCamp | School Guardian</title>
+  </head>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger
+    intent="WELCOME"
+    chat-title="SchoolGuardian"
+    agent-id="90553872-b4c8-43c0-92ad-c49f3d0b2ddf"
+    language-code="pt-br"
+    df-messenger-button-titlebar-color="red"
+  ></df-messenger>
+
+  <style>
+    body {
+      background-color: #e0eeff;
+      font-family: "Montserrat", sans-serif;
+      overflow: hidden;
+    }
+    h1 {
+      color: white;
+      font-size: 2rem;
+      text-transform: uppercase;
+    }
+    p {
+      font-weight: 300;
+    }
+    img {
+      width: 8%;
+      margin: 60px 100px 0 70px;
+    }
+    div {
+      background-color: #1c4d85;
+      color: white;
+      padding: 40px;
+      margin-top: 100px;
+      margin-left: 50px;
+      width: 30%;
+    }
+    df-messenger {
+      --df-messenger-bot-message: #1c4d85;
+      --df-messenger-button-titlebar-color: #1c4d85;
+      --df-messenger-chat-background-color: #e0eeff;
+      --df-messenger-font-color: white;
+      --df-messenger-send-icon: #878fac;
+      --df-messenger-user-message: #6a9bd2;
+    }
+  </style>
+
+  <body>
+    <img
+      src="https://www.schoolguardian.app/assets/img/logo_school_guardian_mobile.svg"
+      alt="School Guardian logo"
+    />
+    <img
+      src="https://www.letsbot.com.br/wp-content/uploads/2019/07/cropped-logo-1-161x92.png"
+      alt="Let's Bot logo"
+    />
+    <div>
+      <h1>Let's Bot + School Guardian</h1>
+      <p>Esse projeto foi desenvolvido no curso de chatbot da Let's Bot.</p>
+      <p>
+        O objetivo foi criar um chatbot para a empresa School Guardian, uma
+        empresa cuja ideia é facilitar a retirada de alunos na escola pelos
+        responsáveis.
+      </p>
+      <br />
+      <p>Clique abaixo para começar a conversar com Guilherme, o bot.</p>
+    </div>
+  </body>
+</html>

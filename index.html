@@ -15,15 +15,14 @@
   <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
   <df-messenger
     intent="WELCOME"
-    chat-title="SchoolGuardian"
-    agent-id="90553872-b4c8-43c0-92ad-c49f3d0b2ddf"
+    chat-title="School Guardian"
+    agent-id="dbbdd2ba-65a0-4625-8af6-38e62b7b7694"
     language-code="pt-br"
-    df-messenger-button-titlebar-color="red"
   ></df-messenger>
 
   <style>
     body {
-      background-color: #e0eeff;
+      background-color: white;
       font-family: "Montserrat", sans-serif;
       overflow: hidden;
     }
@@ -58,12 +57,12 @@
       width: 50%;
     }
     df-messenger {
-      --df-messenger-bot-message: #1c4d85;
+      --df-messenger-bot-message: white;
       --df-messenger-button-titlebar-color: #1c4d85;
-      --df-messenger-chat-background-color: #e0eeff;
-      --df-messenger-font-color: white;
+      --df-messenger-chat-background-color: white;
+      --df-messenger-font-color: black;
       --df-messenger-send-icon: #878fac;
-      --df-messenger-user-message: #6a9bd2;
+      --df-messenger-user-message: #8cb9ec;
     }
   </style>
 
@@ -80,7 +79,7 @@
       <h1>Let's Bot + School Guardian</h1>
       <p>
         Esse projeto foi desenvolvido no curso de chatbot da
-        <a href="https://www.letsbot.com.br/">Let's Bot</a>,.
+        <a href="https://www.letsbot.com.br/">Let's Bot</a>.
       </p>
       <p>
         O objetivo foi criar um chatbot para a empresa
@@ -91,7 +90,13 @@
         Está no escopo desse chatbot perguntas como detalhes do app, como
         adicionar responsáveis pela criança, como funciona o aplicativo, como
         funciona a busca da criança na escola, onde retirar o aluno, indicação
-        de escola para entrar no app, dentre outras questões.
+        de escola para entrar no app, quem está na escola, dentre outras
+        questões.
+      </p>
+      <p>
+        Para testes, foram utilizados em nosso banco de dados os nomes de João e
+        Julia para saber, por exemplo, quem foi a útlima pessoa a buscar cada um
+        na escola e qual portão de retirada de cada um.
       </p>
       <br />
       <p>Clique abaixo para começar a conversar com Guilherme, o bot.</p>
